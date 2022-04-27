@@ -1,3 +1,5 @@
+import { Button } from "semantic-ui-react";
+
 const catchErrors = (error) => {
   let errorMsg = '';
 
@@ -22,3 +24,4 @@ const catchErrors = (error) => {
 };
 
 export default catchErrors;
+
